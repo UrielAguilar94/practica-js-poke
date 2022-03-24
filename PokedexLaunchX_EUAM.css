@@ -1,0 +1,104 @@
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+
+input {
+    position: absolute;
+    top: 852px;
+    width: 80px;
+    padding: 20px;
+    left: 153px;
+    border-radius: 4px;
+    background-color: yellow;
+}
+
+.Titulopokedex{
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+    color: yellow;
+
+} 
+
+header{
+    width: 100%;
+    height:250px ;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b3121742, #e52d27), url(.//pokemon2.png); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b3121742, #e52d27), url(.//pokemon2.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.poke-card {
+    position: absolute;
+    height: 170px;
+    width: 200px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    background-color: #FFF;
+    left: 130px;
+    top: 560px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.resete{
+    position: relative;
+    width: 110px;
+    height: 55px;
+    top: 500px;
+    left: 285px;
+    border-radius: 4px;
+    background-color: orange;
+
+}
+
+
+.fondopokedex{
+    background-image: url(https://www.pngitem.com/pimgs/m/222-2227129_pokemon-pokedex-hd-png-download.png);
+    width: 900px;
+    height: 600px;
+    margin-top: 80px;
+    align-items: center;
+    background-color: yellow;
+}
+.img-container {
+    position: absolute;
+    width: 130px;
+    left: 20px;
+    margin: 0px auto;
+}
+
+.poke-stats div {
+    position: relative;
+    top: 0px;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    font-size: 20px;
+}
+
+.poke-types div {
+    position: relative;
+    top: 115px;
+    left: 110px;
+    padding: 5px;
+     width: 100px;
+    border-radius: 4px;
+    border: 1px dashed black;
+    background-color: rgb(167, 167, 167);
+}
+
+.poke-img {
+    width: 150px;
+    border-radius: 50%;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="PokedexLaunchX_EUAM.js" type="text/javascript" defer></script>
+    <link href="PokedexLaunchX_EUAM.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+    <div class="Titulopokedex">
+        <p>Pokedex
+        </p>
+        <div class ="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C304.74,181.17 312.08,-35.92 500.00,49.98 L500.00,149.99 L0.00,149.99 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+    </header>   
+    </div>
+    <div class="fondopokedex">
+
+    <form action="" onsubmit="searchPokemon(event)">
+        <input type="text" name="pokemon" autocomplete="off">
+        <p><button class="resete" type="reset">Reestablecer</button></p>
+    </form>
+    <div data-poke-card class="poke-card">
+        <div data-poke-name>Pokedex</div>
+        <div data-poke-img-container class="img-container">
+            <img data-poke-img class="poke-img" src="./poke-shadow.png"/>
+        </div>
+        <div data-poke-id></div>
+        <div data-poke-types class="poke-types"></div>
+        <div data-poke-stats class="poke-stats"></div>
+    </div>
+    </div>
+</body>
+</html>
